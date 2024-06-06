@@ -1,0 +1,28 @@
+
+Subir a un repo ya existente
+
+git init
+git add -A
+git commit -m "Comentario"
+git branch -M main (escoger branch)
+git remote add origin (link)
+git push -u origin main (escoger branch)
+
+Actualizar archivos de un repo ya existe
+git add -A
+git commit -m "Actualizacion"
+git branch -M main (escoger branch)
+git remote add origin (link)
+git push -u origin main (escoger branch)
+
+Subir y crear el repositorio en cmd
+
+git add -A
+git commit -m "Comentario"
+git branch -M main (escoger branch)
+git push -u origin main (escoger branch)
+
+
+Cuando el push no funciona
+git push origin main (escoger branch) --force
+
